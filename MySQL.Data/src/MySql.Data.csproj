@@ -79,7 +79,7 @@
     <Reference Include="Zstandard.Net">
       <HintPath>..\..\Dependencies\Zstandard\NetFramework\Zstandard.Net.dll</HintPath>
     </Reference>
-    <PackageReference Include="BouncyCastle" Version="1.8.5" />
+    <PackageReference Include="BouncyCastle" Version="1.8.9" />
     <EmbeddedResource Include="Resources.resx;ResourcesX.resx;Properties\ReservedWords.txt" Exclude="bin\**;obj\**;**\*.xproj;packages\**;@(EmbeddedResource)" />
     <EmbeddedResource Include="..\..\Dependencies\Zstandard\NetFramework\libzstd.dll">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
